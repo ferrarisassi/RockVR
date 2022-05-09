@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8385594992625997918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1462227530106760142}
+  - component: {fileID: 642294862078565421}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1462227530106760142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385594992625997918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &642294862078565421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8385594992625997918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 529b073dc52c8bf48af76cfd1780eb84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tMPro: {fileID: 0}
+  Rocks: []
+  rockPrefabs:
+  - {fileID: 3486452010944560331, guid: 3eb29944f2764084d9f335bed46ff0a1, type: 3}
+  - {fileID: 3486452010944560331, guid: 2d0b99a230f90ee4aa8f20b567569788, type: 3}
+  - {fileID: 3486452010944560331, guid: 08b87ec4d1545844aa4b38174ac166b4, type: 3}
+  - {fileID: 3486452010944560331, guid: 991e4b30b3842464fbf80d7ba14cde49, type: 3}
+  rockSpawner: {fileID: 0}
+  targetSpawner: {fileID: 0}
+  targetPrefab: {fileID: 5607932263305453700, guid: e1d177ad1f0ab9a48b58adbc3e141300,
+    type: 3}
+  points: 0
+  radioSoundEffect: {fileID: 0}
+  hitSoundEffect: {fileID: 0}
+  gravitySoundEffect: {fileID: 0}
+  rockSoundEffect: {fileID: 0}
+  MarsSceneName: Mars_scene
+  MoonSceneName: Moon_terrain_small_1
